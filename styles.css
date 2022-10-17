@@ -1,0 +1,47 @@
+.grid
+{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: grid;
+    background-color: aqua;
+    color: blueviolet;
+    border-radius: 10px;
+    grid-template: repeat(3,1fr) / repeat(3, 1fr);
+}
+
+.cell
+{
+    border: 6px solid #ac5bb7;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2
+{
+    text-align: center;
+    margin: 1rem;
+}
+h1 
+{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+  }
+
+.hide
+{
+    display: none;
+}
+

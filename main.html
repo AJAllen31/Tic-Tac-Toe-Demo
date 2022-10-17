@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Coding Assignment</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+
+<!--Header of Game-->
+    <h1 class="one">Tic-Tac-Toe Game</h1>
+            <h4>Player <span class="display-player playerX">X</span>'s turn</h4>
+<!--Gameboard for Game-->            
+            <div class="grid">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+
+<!--Button-->
+            <div id="button">
+                <button class="btn btn-primary" id="restart">Try Again?</button>
+            </div>
+
+          <!--Information for Winner Page-->
+            <h2 class="display announcer alert alert-success hide"></h2>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
